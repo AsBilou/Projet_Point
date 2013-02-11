@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+
+#page{
+    width: 768px;
+    margin: auto;
+    position:absolute
+}
+
+#masterhead{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    position:absolute;
+}
+
+#logo_site{
+    margin: 20px 0px 0px 24px;
+}
+#options{
+    width: 50%;
+    height: 100%;
+    margin: 20px 0px 0px 0px;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+}
+
+#options a{
+    margin-bottom: 5px;
+    height: 50%;
+}
+
+#login{
+    position: absolute;
+}
+
+#menu{
+    width: 97.9%;
+    position:absolute;
+    top: 120px;
+    padding-left: 16px;
+    margin-left: 0px;
+    background-color: white;
+
+}
+
+#menu li{
+    display: inline-block;
+    width: 19%;
+}
+
+#menu li a{
+    width: 80%;
+
+}
+
+#search{
+    position: absolute;
+    top: 150px;
+}
