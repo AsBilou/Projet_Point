@@ -1,5 +1,4 @@
 body{
-    background-color: #f5deb3;
 }
 
 #page{
@@ -16,13 +15,15 @@ body{
 
 #logo_site{
     margin: 20px 0px 0px 24px;
+    float: left;
 }
 #options{
-    width: 50%;
+    width: 40%;
     height: 100%;
     margin: 20px 0px 0px 0px;
     right: 100px;
     top: 0px;
+    float: right;
 }
 
 #options a{
@@ -39,6 +40,7 @@ body{
     padding-left: 16px;
     margin-left: 0px;
     background-color: white;
+    float: left;
 
 }
 
@@ -64,8 +66,6 @@ body{
 }
 
 .carousel_perso{
-    margin-left: 10px;
-    top: 200px;
 }
 
 .carousel_perso a img{
@@ -76,7 +76,7 @@ body{
     top: 255px;
     left: 550px;
     width: 140px;
-    margin: 0;
+    margin: -39px 0px 20px 565px;
 }
 
 .products{
@@ -93,11 +93,26 @@ body{
 }
 
 .products_header{
-    margin-left: 24px;
+    background-image: url("../img/bdo-vosproduits-home.jpg");
+    height: 30px;
+    background-repeat: no-repeat;
+    margin: 0px 0px 20px 10px;
+}
+
+.products_header h1{
+    width: 50%;
+    float: left;
+}
+
+.products_header img{
+    float: right;
+    margin-top: 20px;
 }
 
 .products_images{
     margin-left: 24px;
+    margin-bottom: 20px;
+    height: 190px;
 }
 
 .product{
@@ -105,6 +120,7 @@ body{
     height: 190px;
     float: left;
     margin-left: 10px;
+    overflow: hidden;
 
 }
 
@@ -120,8 +136,8 @@ body{
 
 .infos{
     width: 100%;
-    height: 300px;
-    background-color: #ffffff;
+    height: 260px;
+    padding-top: 20px;
 }
 
 .infos_half{
@@ -130,25 +146,44 @@ body{
 }
 
 .double{
-    width: 100%;
+    width: 98%;
     float: left;
-    height: 100px;
-    background-color: #eee8aa;
+    height: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .double img{
+    width: 50%;
+    float: left;
+}
 
+.double h6{
+    width: 50%;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .double p{
+    width: 50%;
+    float: right;
+    margin: 0;
 
 }
 
 .simple{
-    width: 50%;
+    width: 47%;
     float: left;
-    height: 100px;
-    background-color:  #7cfc00;
+    height: 110px;
+    border: 1px #000000 solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    overflow: hidden;
 }
 
 .simple img{
@@ -160,13 +195,35 @@ body{
 }
 
 .links{
-
+    height: 40px;
+    background-color: #696969;
+    padding-top: 20px;
+    padding-left: 100px;
 }
 
 .link{
-
+    float: left;
+    margin-left: 20px;
 }
 
 #footer{
 
+}
+
+.menu_header{
+    
+}
+
+.menu_vert{
+    width: 176px;
+    font-size: 11px;
+}
+
+.menu_vert ul{
+    margin-left: 5px;
+}
+
+.menu_vert li{
+    border-bottom: 1px solid #ffffff;
+    background-color: #EEE;
 }
