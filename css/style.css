@@ -2,8 +2,8 @@ body{
 }
 
 #page{
-    width: 768px;
-    /*width: 100%;*/
+    /*width: 768px;*/
+    width: 100%;
     margin: auto;
 }
 
@@ -302,17 +302,57 @@ body{
 .product_pro_det_header h1{
     font-size: 20px;
     line-height: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px #000000 dashed;
 }
 
 .product_pro_det_content{
 
 }
 
-.product_pro_det_info{
+.product_pro_det_content img{
+    float: left;
+    margin-right: 30px;
+}
 
+.product_pro_det_info{
+    float: left;
+}
+
+.product_pro_det_info a{
+    padding-top: 40px;
+    display: block;
 }
 
 .product_pro_det_desc{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
+.product_pro_det_desc h2{
+    font-size: 1em;
+}
+
+.product_pro_det_desc table{
+    width: 100%;
+}
+
+.product_pro_det_desc th{
+    text-align: left;
+    background-color: #DADADA;
+    border-bottom: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.product_pro_det_desc td{
+    text-align: center;
+    border-bottom: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    background: #E6E6E6;
+    padding: 10px;
 }
 
